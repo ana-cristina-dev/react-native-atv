@@ -16,14 +16,14 @@ export default function Home() {
 
   return (
     <View style={styles.container}>
-      <Image source={require("../../images/ifal.jpeg")} style={styles.imagem} /> {/* Imagem do ifal presente na primeira tela*/}
+      <Image source={require("../../images/ifal.jpeg")} style={styles.imagem} /> 
 
       <TouchableOpacity
         style={styles.botton}
-        onPress={() => navigation.navigate("Sobre")}> {/* Botão responsável pela navigação entre as telas */}
+        onPress={() => navigation.navigate("Sobre")}> 
 
 
-        <Text style={styles.texto}>Ir Para Sobre</Text> {/*Texto do Botão*/}
+        <Text style={styles.texto}>Ir Para Sobre</Text> 
      
       </TouchableOpacity>
     </View>
@@ -40,8 +40,8 @@ const styles = StyleSheet.create({
     backgroundColor:'#8d8383'
   },
   imagem: {
-    width: 400,
-    height: 600,
+    width: "90%",
+    height: "70%",
     borderRadius: 10,
   },
   botton: {
